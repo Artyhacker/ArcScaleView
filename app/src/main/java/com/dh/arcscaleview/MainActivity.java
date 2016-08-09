@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         arcScaleView = (ArcScaleView) findViewById(R.id.arc_scale_view);
-        arcScaleView.setSweepValue(300);
+        arcScaleView.setSweepValue(90);
         arcScaleView.setText("123456789");
     }
 

@@ -51,9 +51,9 @@ public class ArcScaleView extends View {
 
     public void setSweepValue(float sweepValue){
         if(sweepValue != 0)
-            mSweepAngle = sweepValue;
+            mSweepAngle = sweepValue * 18 / 5;
         else
-            mSweepAngle = 25;
+            mSweepAngle = 45;
         this.invalidate();
     }
 
